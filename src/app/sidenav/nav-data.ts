@@ -6,57 +6,43 @@ export const navbarData = [
     },
     {
         routeLink: 'products',
-        icon: 'fal fa-box-open',
-        label: 'Products'
+        icon: 'fal fa-user',
+        label: 'Usuarios'
     },
     {
         routeLink: 'statistics',
-        icon: 'fal fa-chart-bar',
-        label: 'Statistics'
+        icon: 'fal fa-clipboard-user',
+        label: 'Roles'
     },
     {
         routeLink: 'coupens',
-        icon: 'fal fa-tags',
-        label: 'Coupens'
+        icon: 'fal fa-address-card',
+        label: 'Contactos'
     },
     {
         routeLink: 'pages',
-        icon: 'fal fa-file',
-        label: 'Pages'
+        icon: 'fal fa-microchip',
+        label: 'Dispositivos'
     },
     {
         routeLink: 'media',
-        icon: 'fal fa-camera',
-        label: 'Media'
+        icon: 'fal fa-angle-right',
+        label: 'Entradas'
     },
     {
         routeLink: 'settings',
-        icon: 'fal fa-cog',
-        label: 'Settings'
+        icon: 'fal fa-arrow-alt-from-left',
+        label: 'Lecturas'
     },
     {
-        routeLink: '',
-        icon: 'fal fa-cog',
-        label: 'Menu with Children',
-        submenuLevel1: [
-            {
-                routeLink: '',
-                icon: 'fal fa-cog', // icon if needed
-                label: 'Sub menu level 1',
-            },
-            {
-                routeLink: '',
-                icon: 'fal fa-cog', // icon if needed
-                label: 'Sub menu level 1',
-                submenuLevel2: [
-                    {
-                        routeLink: '',
-                        icon: 'fal fa-cog', // icon if needed
-                        label: 'Sub menu level 2',
-                    }
-                ]
-            }
-        ]
+        routeLink: 'alarmas',
+        icon: 'far fa-bell',
+        label: 'Alarmas'
+    },
+    {
+        routeLink: 'salir',
+        icon: 'far fa-sign-out-alt',
+        label: 'Salir'
     },
 
 ];
